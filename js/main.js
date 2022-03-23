@@ -102,7 +102,6 @@ $("#progress-bar").change(function() {
 
 //Time/Duration
 function showDuration(){
-	console.log("しょデュ");
 	$("#progress-bar").val(0);
 	$(audio).bind('timeupdate',function(){
 		//Get hours and minutes
