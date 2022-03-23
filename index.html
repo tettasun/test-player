@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DarkEmpireII</title>
+  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="audio-image"> <img class="cover"> </div>
+    <div id="audio-player">
+      <div id="audio-info"> <span class="artist"></span> - <span class="title"></span> </div>
+      <input id="volume" type="range" min="0" max="10" value="4">
+      <br>
+      <div id="buttons"> <span>
+          <button id="prev"></button>
+          <button id="play"></button>
+          <button id="pause"></button>
+          <button id="stop"></button>
+          <button id="next"></button>
+        </span> </div>
+      <div class="clearfix"></div>
+      <div id="tracker">
+        <input id="progress-bar" type="range" min="0" max="100" value="0">
+        <span id="duration">0:00</span>
+      </div>
+      <div class="clearfix"></div>
+      <ul id="playlist" class="hidden">
+        <li song="DarkEmpire2-1-Cathedral.wav" cover="photo1.png" artist="Dark Empire">Cathedral</li>
+        <li song="DarkEmpire2-2-Legion.mp3" cover="photo1.png" artist="Dark Empire">Legion</li>
+        <li song="DarkEmpire2-3-EvilEyes.wav" cover="photo1.png" artist="Dark Empire">EvilEyes</li>
+        <li song="DarkEmpire2-4-MindBreak.wav" cover="photo1.png" artist="Dark Empire">MindBreak</li>
+        <li song="DarkEmpire2-5-Sorrow.wav" cover="photo1.png" artist="Dark Empire">Sorrow</li>
+        <li song="DarkEmpire2-6-Pilgrimage.wav" cover="photo1.png" artist="Dark Empire">Pilgrimage</li>
+      </ul>
+    </div>
+  </div>
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
